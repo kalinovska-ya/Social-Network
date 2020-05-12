@@ -1,0 +1,26 @@
+.bottom-banner__img-container {
+    width: calc(1200px / 6);
+    height: 200px;
+    background-color: #000000;
+    transition: .2s;
+    z-index: 1;
+}
+
+.bottom-banner__img-container:hover {
+    filter: contrast(120%);
+    z-index: 1;
+
+}
+
+.bottom-banner__link {
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+.bottom-banner__image {
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}

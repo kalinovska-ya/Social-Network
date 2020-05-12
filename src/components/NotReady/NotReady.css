@@ -1,0 +1,18 @@
+figure.under-dev {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.under-dev img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.under-dev figcaption {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-style: italic;
+    font-weight: 100;
+}

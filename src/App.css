@@ -1,0 +1,31 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+:root {
+    --c-pink: #a79797;    /* later: to add theme colours */
+    --c-grey: #8d8d8d;
+}
+
+.app-wrapper {
+    display: grid;
+    grid-template-rows: 60px 1fr auto 150px;
+    grid-template-columns: 3fr 9fr;
+    grid-gap: 5px;
+    grid-template-areas: 
+    "h h"
+    "n m"
+    "b b"
+    "f f";
+    max-width: 1200px;
+    width: 1200px;   /* later: should be changed to adaptive version */
+    margin: 0 auto;
+    color: var(--c-grey);
+}

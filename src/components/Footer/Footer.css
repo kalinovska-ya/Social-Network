@@ -1,0 +1,23 @@
+.footer {
+    grid-area: f;
+    background: linear-gradient(to top, var(--c-pink), white);
+    padding: 50px 0 0 0;
+    text-align: center;
+}
+
+.footer-menu {
+    margin-bottom: 30px;
+}
+
+.footer-menu__link {
+    padding: 0 15px;
+    transition: .2s;
+}
+
+.footer-menu__link:hover {
+    color:  var(--c-pink);
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, .7);
+}

@@ -1,0 +1,91 @@
+.header {
+    grid-area: h;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 3;
+    top: 0;
+    padding: 40px 30px 30px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, .07);
+}
+
+.logo {
+    position: relative;
+}
+
+.logo-link {
+    display: inline-block;
+    height: 100%;
+}
+
+.logo-link__image {
+    width: 250px;
+}
+
+.sub-heading__text {
+    font-family: 'Shadows Into Light', cursive;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 18px;
+    position: absolute;
+    left: 240px;
+    top: 45px;
+    width: 160px;
+}
+
+.socials {
+    display: flex;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    margin: 0 5px;
+}
+
+.facebook {
+    background-image: url(../../images/facebook.svg);
+    transition: .2s;
+}
+
+.instagram {
+    background-image: url(../../images/instagram.svg);
+    transition: .2s;
+}
+
+.twitter {
+    background-image: url(../../images/twitter.svg);
+    transition: .2s;
+}
+
+.pinterest {
+    background-image: url(../../images/pinterest.svg);
+    transition: .2s;
+}
+
+.social-icon__link {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.facebook:hover  {
+    background-image: url(../../images/facebook-hov.svg);
+}
+
+.instagram:hover {
+    background-image: url(../../images/instagram-hov.svg);
+}
+
+.twitter:hover {
+    background-image: url(../../images/twitter-hov.svg);
+}
+
+.pinterest:hover {
+    background-image: url(../../images/pinterest-hov.svg);
+}
+

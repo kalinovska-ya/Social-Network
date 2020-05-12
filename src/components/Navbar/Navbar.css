@@ -1,0 +1,28 @@
+.sidebar-content {
+    padding: 100px 30px;
+}
+
+.navbar-list {
+    line-height: 2;
+    list-style-type: none;
+}
+
+.navbar-list__item-link {
+    transition: .3s;
+    display: inline-block;
+    width: 100%;
+}
+
+.navbar-list__item-link:hover {
+    padding-left: 20px;
+    color: var(--c-pink);
+}
+
+.navbar-list__item-link:hover::before {
+    content: " — ";
+}
+
+.navbar-list__item-link.active {
+    color: var(--c-pink);
+    font-weight: 800;
+}

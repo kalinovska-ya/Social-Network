@@ -1,0 +1,12 @@
+.arrows a {
+    margin-right: 20px;
+    transition: .2s;
+}
+
+.arrows a:hover {
+    color: var(--c-pink);
+}
+
+.arrows {
+    text-align: center;
+}

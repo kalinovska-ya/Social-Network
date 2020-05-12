@@ -1,0 +1,23 @@
+.start-content {
+    padding: 50px 30px;
+    padding-top: 160px;
+    margin: 0 auto;
+    color: var(--c-pink);
+    font-family: 'Shadows Into Light', cursive;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 2em;
+    position: relative;
+}
+
+.start-content span {
+    margin: 0 auto;
+}
+
+.start-content img {
+    width: 100px;
+    position: absolute;
+    top: 200px;
+    opacity: 70%;
+}
+

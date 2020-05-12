@@ -1,0 +1,83 @@
+.profile-content {
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-info {
+    width: 50%;
+    padding: 50px 0;
+}
+
+.name, .profile-details {
+    margin-bottom: 50px;
+}
+
+.profile-details {
+    text-align: right;
+}
+
+.profile-details-list {
+    list-style-type: none;
+}
+
+
+.about {
+    margin-bottom: 30px;
+}
+
+.about__text {
+    line-height: 1.5;
+    white-space: pre-line;
+}
+
+.gradient {
+    width: 50%;
+    max-width: 356px;
+    height: 606px;
+    background: linear-gradient(to bottom left, black 9%, white 10%, white 90%, black 91%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.avatar {
+    width: 100%;
+    max-width: 350px;
+    height: 600px;
+    overflow: hidden;
+    border: 10px solid white;
+}
+
+.avatar__photo {
+    max-height: 100%;
+    /* object-position: center; */
+    /* object-fit: cover; */
+}
+
+.button {
+    padding: 8px 0;
+    background: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
+    border: none;
+    border-radius: 30px;
+    box-shadow: 
+    3px 3px 6px 0 rgba(0, 0, 0, 0.25),
+    -5px -5px 12px 0 rgba(255, 255, 255, 0.3);
+    outline: none;
+    font-size: 12px;
+    font-weight: 300;
+    width: 80px;
+    /* font-family: 'Shadows Into Light', cursive; */
+    /* font-style: italic;
+    font-weight: 600;
+    letter-spacing: 2px; */
+}
+
+.button:hover {
+    box-shadow: 
+    3px 3px 6px 0 rgba(255, 255, 255, 0.3) inset,
+    -5px -5px 12px 0 rgba(0, 0, 0, .25) inset;
+    outline: none;
+    border: none;
+}
