@@ -28,7 +28,7 @@ const App = (props) => {
             <Route path="/newsfeed"  render={ () => <Newsfeed /> } />
             <Route path="/search"  render={ () => <Search /> } />
             <Route path="/settings"  render={ () => <Theme /> } />
-            <Route path="/Social-Network" exact render={ () => <Start /> } />
+            <Route path="/Social-Network/" exact render={ () => <Start /> } />
 
             <FindMeContainer />
             <Footer />
